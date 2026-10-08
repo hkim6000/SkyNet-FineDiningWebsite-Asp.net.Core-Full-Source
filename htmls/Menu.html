@@ -1,0 +1,89 @@
+<div class="mn-site" data-page="Menu">
+<div class="mn-strip"><a href="Events">Now booking holiday dinners and New Year&rsquo;s Eve</a></div>
+<header class="mn-head" id="mn-head">
+    <div class="mn-head-row">
+        <button type="button" class="mn-burger" aria-label="Menu" onclick="MenuJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="mn-logo" href="Home"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="mn-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></a>
+        <nav class="mn-nav" id="mn-nav">
+            <div class="mn-nav-top"><span class="mn-logo"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="mn-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></span>
+                <button type="button" class="mn-nav-x" aria-label="Close" onclick="MenuJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="mn-menu">
+                <li class="mn-mi mn-on"><div class="mn-mrow"><a class="mn-ml" href="Menu">Menu</a><button type="button" class="mn-mx" aria-label="Expand" onclick="MenuJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="mn-mega"><div class="mn-mega-in"><div class="mn-mcol"><div class="mn-mtitle">&Agrave; la carte</div><ul><li><a href="Menu?course=snacks">Snacks</a></li><li><a href="Menu?course=starters">Starters</a></li><li><a href="Menu?course=pasta">Pasta &amp; grains</a></li><li><a href="Menu?course=sea">From the sea</a></li><li><a href="Menu?course=land">From the land</a></li><li><a href="Menu?course=dessert">Desserts</a></li></ul></div><div class="mn-mcol"><div class="mn-mtitle">Tasting menus</div><ul><li><a href="Menu#tasting">Seasons &middot; 7 courses</a></li><li><a href="Menu#tasting">Garden &middot; 6 courses</a></li><li><a href="Menu#tasting">Chef’s Counter &middot; 10 courses</a></li><li><a href="Menu#plan">Plan your evening</a></li></ul></div><a class="mn-mpromo" href="Menu"><img src="images/banners/menu.webp" alt="" loading="lazy"><span class="mn-mpromo-t">Tonight&rsquo;s menu</span><span class="mn-mpromo-c">See the full menu &rarr;</span></a></div></div></li><li class="mn-mi"><div class="mn-mrow"><a class="mn-ml" href="Specials">Specials</a></div></li><li class="mn-mi"><div class="mn-mrow"><a class="mn-ml" href="Events">Events</a><button type="button" class="mn-mx" aria-label="Expand" onclick="MenuJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="mn-mega"><div class="mn-mega-in"><div class="mn-mcol"><div class="mn-mtitle">Upcoming</div><ul><li><a href="Event?id=burgundy-dinner">Burgundy wine dinner</a></li><li><a href="Event?id=truffle-night">White truffle night</a></li><li><a href="Event?id=harvest-table">Harvest chef’s table</a></li><li><a href="Event?id=champagne-oysters">Champagne &amp; oysters</a></li><li><a href="Event?id=nye">New Year’s Eve</a></li><li><a href="Event?id=pasta-class">Pasta-making class</a></li></ul></div><div class="mn-mcol"><div class="mn-mtitle">Private dining</div><ul><li><a href="Events#private">The Salon &middot; 10&ndash;16</a></li><li><a href="Events#private">The Cellar &middot; 16&ndash;30</a></li><li><a href="Events#private">Full buyout &middot; 30&ndash;60</a></li></ul></div><a class="mn-mpromo" href="Events"><img src="images/banners/events.webp" alt="" loading="lazy"><span class="mn-mpromo-t">Wine dinners &amp; chef&rsquo;s tables</span><span class="mn-mpromo-c">All events &rarr;</span></a></div></div></li><li class="mn-mi"><div class="mn-mrow"><a class="mn-ml" href="Wine">Wine</a><button type="button" class="mn-mx" aria-label="Expand" onclick="MenuJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="mn-mega"><div class="mn-mega-in"><div class="mn-mcol"><div class="mn-mtitle">The list</div><ul><li><a href="Wine?type=sparkling">Sparkling</a></li><li><a href="Wine?type=white">White</a></li><li><a href="Wine?type=rose">Rosé</a></li><li><a href="Wine?type=red">Red</a></li><li><a href="Wine?type=sweet">Sweet</a></li></ul></div><div class="mn-mcol"><div class="mn-mtitle">Regions</div><ul><li><a href="Wine?region=champagne">Champagne</a></li><li><a href="Wine?region=burgundy">Burgundy</a></li><li><a href="Wine?region=loire">Loire</a></li><li><a href="Wine?region=bordeaux">Bordeaux</a></li><li><a href="Wine?region=rhone">Rhône</a></li><li><a href="Wine?region=provence">Provence</a></li><li><a href="Wine?region=piedmont">Piedmont</a></li></ul></div><a class="mn-mpromo" href="Wine"><img src="images/banners/wine.webp" alt="" loading="lazy"><span class="mn-mpromo-t">600 bottles, 30 by the glass</span><span class="mn-mpromo-c">Open the wine list &rarr;</span></a></div></div></li><li class="mn-mi"><div class="mn-mrow"><a class="mn-ml" href="GiftCards">Gift Cards</a></div></li><li class="mn-mi"><div class="mn-mrow"><a class="mn-ml" href="About">About</a></div></li><li class="mn-mi"><div class="mn-mrow"><a class="mn-ml" href="Contact">Contact</a></div></li>
+            </ul>
+            <a class="mn-btn mn-nav-cta" href="Reservation">Reserve a table</a>
+        </nav>
+        <div class="mn-search" id="mn-search">
+            <span class="mn-search-ic"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="mn-q" placeholder="Search the menu" autocomplete="off" maxlength="40" oninput="MenuJs.search(this.value)" onfocus="MenuJs.search(this.value)" aria-label="Search">
+            <div class="mn-sugg" id="mn-sugg"></div>
+        </div>
+        <a class="mn-btn mn-reserve" href="Reservation">Reserve</a>
+    </div>
+    <div class="mn-scrim" id="mn-scrim" onclick="MenuJs.closeNav()"></div>
+</header>
+<main class="mn-main">
+    <section class="mn-banner">
+        <img src="images/banners/menu.webp" alt="">
+        <div class="mn-banner-txt"><div class="mn-eyebrow">The menu</div><h1>Tonight at Aurelle</h1><p>Three tasting menus and an &agrave; la carte menu that follows the market. Tap any dish for details and a wine to go with it.</p></div>
+    </section>
+    <div class="mn-wrap"><div class="mn-crumb"><a href="Home">Home</a><span>/</span>Menu</div></div>
+    <div class="mn-wrap">
+        <section class="mn-sec" id="tasting">
+            <div class="mn-sec-h"><div><div class="mn-eyebrow">Tasting menus</div><h2>Let the kitchen decide</h2></div></div>
+            <div class="mn-tastings">{plhd_tastings}</div>
+        </section>
+        <section class="mn-sec mn-plan" id="plan">
+            <div class="mn-calc">
+                <div class="mn-eyebrow">Plan your evening</div>
+                <h2>What will it cost?</h2>
+                <label>Menu<select id="mn-pmenu" class="mn-sel"><option value="seasons">Seasons &middot; $145</option><option value="garden">Garden &middot; $120</option><option value="counter">Chef’s Counter &middot; $210</option></select></label>
+                <label>Guests<select id="mn-pguests" class="mn-sel"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option><option value="7">7 guests</option><option value="8">8 guests</option></select></label>
+                <label class="mn-check"><input type="checkbox" id="mn-ppair"><span>Add the wine pairing</span></label>
+                <button type="button" class="mn-btn" onclick="MenuJs.estimate()">Estimate</button>
+            </div>
+            <div class="mn-quote" id="mn-estimate"><div class="mn-quote-empty">Pick a menu and party size to see an estimate, with service and tax.</div></div>
+        </section>
+        <section class="mn-sec" id="carte">
+            <div class="mn-sec-h"><div><div class="mn-eyebrow">&Agrave; la carte</div><h2>Choose your own</h2></div></div>
+            <div class="mn-toolbar">
+                <div class="mn-chips" id="mn-chips-course">{plhd_chips}</div>
+                <div class="mn-chips mn-chips-d">{plhd_diets}</div>
+                <span class="mn-count" id="mn-count">{plhd_count}</span>
+                <input type="hidden" class="mn-fv" id="mn-f-course" data-k="course" value="{plhd_course}">
+                <input type="hidden" class="mn-fv" id="mn-f-diet" data-k="diet" value="">
+            </div>
+            <div id="mn-carte">{plhd_carte}</div>
+            <p class="mn-fine">Please tell us about allergies when you book. A discretionary 20% service charge is added to every bill and shared by the whole team.</p>
+        </section>
+    </div>
+</main>
+<section class="mn-band">
+    <img src="images/banners/reservation.webp" alt="" loading="lazy">
+    <div class="mn-band-in">
+        <div class="mn-eyebrow">Reservations</div>
+        <h3>A table is waiting.</h3>
+        <p>Book up to 60 days ahead. For nine or more, ask about private dining.</p>
+        <a class="mn-btn" href="Reservation">Reserve a table</a>
+    </div>
+</section>
+<footer class="mn-foot">
+    <div class="mn-foot-in">
+        <div class="mn-fbrand">
+            <a class="mn-logo mn-logo-l" href="Home"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="mn-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></a>
+            <p>Seasonal tasting menus, served slowly. Event invitations and new menus, about once a month.</p>
+            <div class="mn-nl-f"><input type="email" id="mn-nl-email" placeholder="Your email" maxlength="80" autocomplete="off" aria-label="Email"><button type="button" onclick="MenuJs.subscribe()">Join the list</button></div>
+            <div class="mn-nl-msg" id="mn-nl-msg"></div>
+        </div>
+        <div class="mn-fcol"><div class="mn-ftitle">Visit</div><p class="mn-faddr">214 Larkspur Street, Riverton<br>(555) 014-3300<br>hello@aurelle.example</p><p class="mn-faddr">Tue&ndash;Thu 5:30&ndash;9:30<br>Fri&ndash;Sat 5:00&ndash;10:00<br>Sun 4:30&ndash;8:30 &middot; Mon closed</p></div>
+        <div class="mn-fcol"><div class="mn-ftitle">Dine</div><ul><li><a href="Menu">Menu</a></li><li><a href="Specials">Specials</a></li><li><a href="Events">Events</a></li><li><a href="Wine">Wine list</a></li></ul></div><div class="mn-fcol"><div class="mn-ftitle">Aurelle</div><ul><li><a href="About">About</a></li><li><a href="GiftCards">Gift cards</a></li><li><a href="Events#private">Private dining</a></li><li><a href="Contact">Contact</a></li></ul></div>
+    </div>
+    <div class="mn-disc">Aurelle is a fictional restaurant made for a website template. Menus, prices, events and wines are illustrative &mdash; no booking is made and nothing is charged.</div>
+    <div class="mn-foot-bar">
+        <span>&copy; 2026 Aurelle (fictional). All rights reserved.</span>
+        <span class="mn-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="Contact" aria-label="Contact"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></a></span>
+        <span class="mn-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+<div class="mn-modal" id="mn-modal" onclick="MenuJs.closeModal(event)"><div class="mn-modal-box" id="mn-modal-box"></div></div>
+<div class="mn-toast" id="mn-toast" role="status"></div>
+</div>

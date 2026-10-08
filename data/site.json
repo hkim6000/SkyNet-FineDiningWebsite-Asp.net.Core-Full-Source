@@ -1,0 +1,1538 @@
+{
+  "courses": [
+    {
+      "key": "snacks",
+      "label": "Snacks"
+    },
+    {
+      "key": "starters",
+      "label": "Starters"
+    },
+    {
+      "key": "pasta",
+      "label": "Pasta & grains"
+    },
+    {
+      "key": "sea",
+      "label": "From the sea"
+    },
+    {
+      "key": "land",
+      "label": "From the land"
+    },
+    {
+      "key": "dessert",
+      "label": "Desserts"
+    }
+  ],
+  "diets": [
+    {
+      "key": "veg",
+      "label": "Vegetarian"
+    },
+    {
+      "key": "gf",
+      "label": "Gluten-free"
+    },
+    {
+      "key": "nf",
+      "label": "Nut-free"
+    }
+  ],
+  "eventKinds": [
+    {
+      "key": "wine",
+      "label": "Wine dinners"
+    },
+    {
+      "key": "chef",
+      "label": "Chef’s tables"
+    },
+    {
+      "key": "holiday",
+      "label": "Holidays"
+    },
+    {
+      "key": "class",
+      "label": "Classes"
+    }
+  ],
+  "wineTypes": [
+    {
+      "key": "sparkling",
+      "label": "Sparkling"
+    },
+    {
+      "key": "white",
+      "label": "White"
+    },
+    {
+      "key": "rose",
+      "label": "Rosé"
+    },
+    {
+      "key": "red",
+      "label": "Red"
+    },
+    {
+      "key": "sweet",
+      "label": "Sweet"
+    }
+  ],
+  "regions": [
+    {
+      "key": "champagne",
+      "label": "Champagne"
+    },
+    {
+      "key": "burgundy",
+      "label": "Burgundy"
+    },
+    {
+      "key": "loire",
+      "label": "Loire"
+    },
+    {
+      "key": "bordeaux",
+      "label": "Bordeaux"
+    },
+    {
+      "key": "rhone",
+      "label": "Rhône"
+    },
+    {
+      "key": "provence",
+      "label": "Provence"
+    },
+    {
+      "key": "piedmont",
+      "label": "Piedmont"
+    },
+    {
+      "key": "tuscany",
+      "label": "Tuscany"
+    },
+    {
+      "key": "veneto",
+      "label": "Veneto"
+    },
+    {
+      "key": "mosel",
+      "label": "Mosel"
+    },
+    {
+      "key": "rioja",
+      "label": "Rioja"
+    },
+    {
+      "key": "galicia",
+      "label": "Galicia"
+    },
+    {
+      "key": "sonoma",
+      "label": "Sonoma"
+    },
+    {
+      "key": "napa",
+      "label": "Napa"
+    },
+    {
+      "key": "oregon",
+      "label": "Oregon"
+    },
+    {
+      "key": "mendoza",
+      "label": "Mendoza"
+    },
+    {
+      "key": "tokaj",
+      "label": "Tokaj"
+    },
+    {
+      "key": "douro",
+      "label": "Douro"
+    }
+  ],
+  "occasions": [
+    {
+      "key": "",
+      "label": "No special occasion"
+    },
+    {
+      "key": "birthday",
+      "label": "Birthday"
+    },
+    {
+      "key": "anniversary",
+      "label": "Anniversary"
+    },
+    {
+      "key": "business",
+      "label": "Business dinner"
+    },
+    {
+      "key": "celebration",
+      "label": "Celebration"
+    },
+    {
+      "key": "proposal",
+      "label": "Proposal"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "oysters",
+      "name": "Oysters, cucumber mignonette",
+      "course": "snacks",
+      "price": 24,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Half a dozen cold-water oysters on crushed ice with cucumber and shallot mignonette.",
+      "image": "images/dishes/oysters.webp",
+      "rank": 1,
+      "pairs": [
+        "muscadet",
+        "chablis",
+        "cuvee-lune"
+      ]
+    },
+    {
+      "id": "gougeres",
+      "name": "Gruyère gougères",
+      "course": "snacks",
+      "price": 12,
+      "diets": [
+        "veg",
+        "nf"
+      ],
+      "description": "Warm choux puffs baked with aged Gruyère and a little black pepper.",
+      "image": "images/dishes/gougeres.webp",
+      "rank": 2,
+      "pairs": [
+        "cuvee-lune",
+        "chablis",
+        "cremant-rose"
+      ]
+    },
+    {
+      "id": "tartlets",
+      "name": "Wagyu tartare tartlets",
+      "course": "snacks",
+      "price": 22,
+      "diets": [
+        "nf"
+      ],
+      "description": "Hand-cut wagyu, cured yolk and chive in crisp butter pastry.",
+      "image": "images/dishes/tartlets.webp",
+      "rank": 3,
+      "pairs": [
+        "bourgogne-rouge",
+        "cremant-rose",
+        "barbera"
+      ]
+    },
+    {
+      "id": "blini",
+      "name": "Caviar & buckwheat blini",
+      "course": "snacks",
+      "price": 48,
+      "diets": [
+        "nf"
+      ],
+      "description": "Buckwheat blini, crème fraîche and Ossetra-style caviar.",
+      "image": "images/dishes/blini.webp",
+      "rank": 4,
+      "pairs": [
+        "blanc-de-blancs",
+        "cuvee-lune",
+        "chablis"
+      ]
+    },
+    {
+      "id": "sourdough",
+      "name": "House sourdough",
+      "course": "snacks",
+      "price": 9,
+      "diets": [
+        "veg",
+        "nf"
+      ],
+      "description": "Our 48-hour sourdough with cultured butter and sea salt.",
+      "image": "images/dishes/sourdough.webp",
+      "rank": 5,
+      "pairs": [
+        "cuvee-lune",
+        "albarino",
+        "provence-rose"
+      ]
+    },
+    {
+      "id": "beets",
+      "name": "Roasted beets, goat cheese",
+      "course": "starters",
+      "price": 19,
+      "diets": [
+        "veg",
+        "gf"
+      ],
+      "description": "Red and golden beets, whipped goat cheese, toasted hazelnut.",
+      "image": "images/dishes/beets.webp",
+      "rank": 6,
+      "pairs": [
+        "sancerre",
+        "provence-rose",
+        "willamette-pinot"
+      ]
+    },
+    {
+      "id": "crudo",
+      "name": "Scallop crudo",
+      "course": "starters",
+      "price": 24,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Raw diver scallop, blood orange, chili oil and sorrel.",
+      "image": "images/dishes/crudo.webp",
+      "rank": 7,
+      "pairs": [
+        "albarino",
+        "riesling-mosel",
+        "chablis"
+      ]
+    },
+    {
+      "id": "burrata",
+      "name": "Burrata & heirloom tomato",
+      "course": "starters",
+      "price": 21,
+      "diets": [
+        "veg",
+        "gf",
+        "nf"
+      ],
+      "description": "Creamy burrata, late-summer tomatoes and basil oil.",
+      "image": "images/dishes/burrata.webp",
+      "rank": 8,
+      "pairs": [
+        "provence-rose",
+        "prosecco-colli",
+        "sancerre"
+      ]
+    },
+    {
+      "id": "torchon",
+      "name": "Foie gras torchon",
+      "course": "starters",
+      "price": 29,
+      "diets": [
+        "nf"
+      ],
+      "description": "Silky torchon with roasted figs, port gel and toasted brioche.",
+      "image": "images/dishes/torchon.webp",
+      "rank": 9,
+      "pairs": [
+        "sauternes",
+        "tokaji",
+        "riesling-mosel"
+      ]
+    },
+    {
+      "id": "veloute",
+      "name": "Butternut velouté",
+      "course": "starters",
+      "price": 16,
+      "diets": [
+        "veg",
+        "gf",
+        "nf"
+      ],
+      "description": "Roasted squash soup, brown butter, crème fraîche and crisp sage.",
+      "image": "images/dishes/veloute.webp",
+      "rank": 10,
+      "pairs": [
+        "sonoma-chard",
+        "meursault",
+        "tavel"
+      ]
+    },
+    {
+      "id": "tagliolini",
+      "name": "Tagliolini, parmesan, pepper",
+      "course": "pasta",
+      "price": 28,
+      "diets": [
+        "veg",
+        "nf"
+      ],
+      "description": "Fresh egg tagliolini tossed with aged parmesan and cracked pepper.",
+      "image": "images/dishes/tagliolini.webp",
+      "rank": 11,
+      "pairs": [
+        "barbera",
+        "chablis",
+        "chianti"
+      ]
+    },
+    {
+      "id": "ravioli",
+      "name": "Lobster ravioli",
+      "course": "pasta",
+      "price": 38,
+      "diets": [
+        "nf"
+      ],
+      "description": "Hand-folded ravioli in lobster bisque with tarragon oil.",
+      "image": "images/dishes/ravioli.webp",
+      "rank": 12,
+      "pairs": [
+        "meursault",
+        "sonoma-chard",
+        "blanc-de-blancs"
+      ]
+    },
+    {
+      "id": "risotto",
+      "name": "Wild mushroom risotto",
+      "course": "pasta",
+      "price": 29,
+      "diets": [
+        "veg",
+        "gf",
+        "nf"
+      ],
+      "description": "Carnaroli rice, foraged mushrooms and 24-month parmesan.",
+      "image": "images/dishes/risotto.webp",
+      "rank": 13,
+      "pairs": [
+        "barolo",
+        "meursault",
+        "bourgogne-rouge"
+      ]
+    },
+    {
+      "id": "gnocchi",
+      "name": "Ricotta gnocchi",
+      "course": "pasta",
+      "price": 26,
+      "diets": [
+        "veg",
+        "nf"
+      ],
+      "description": "Pillowy ricotta gnocchi with sweet peas, mint and lemon.",
+      "image": "images/dishes/gnocchi.webp",
+      "rank": 14,
+      "pairs": [
+        "sancerre",
+        "albarino",
+        "provence-rose"
+      ]
+    },
+    {
+      "id": "halibut",
+      "name": "Halibut, beurre blanc",
+      "course": "sea",
+      "price": 46,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Pan-roasted halibut, beurre blanc and melted leeks.",
+      "image": "images/dishes/halibut.webp",
+      "rank": 15,
+      "pairs": [
+        "meursault",
+        "chablis",
+        "sonoma-chard"
+      ]
+    },
+    {
+      "id": "scallops",
+      "name": "Seared scallops",
+      "course": "sea",
+      "price": 44,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Caramelized scallops, cauliflower purée, capers and raisin.",
+      "image": "images/dishes/scallops.webp",
+      "rank": 16,
+      "pairs": [
+        "chablis",
+        "blanc-de-blancs",
+        "riesling-mosel"
+      ]
+    },
+    {
+      "id": "black-cod",
+      "name": "Miso black cod",
+      "course": "sea",
+      "price": 45,
+      "diets": [
+        "nf"
+      ],
+      "description": "Miso-glazed black cod, charred bok choy and ginger.",
+      "image": "images/dishes/black-cod.webp",
+      "rank": 17,
+      "pairs": [
+        "riesling-mosel",
+        "willamette-pinot",
+        "albarino"
+      ]
+    },
+    {
+      "id": "salmon",
+      "name": "King salmon, beet, horseradish",
+      "course": "sea",
+      "price": 42,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Slow-cooked salmon with beet purée and horseradish cream.",
+      "image": "images/dishes/salmon.webp",
+      "rank": 18,
+      "pairs": [
+        "willamette-pinot",
+        "tavel",
+        "bourgogne-rouge"
+      ]
+    },
+    {
+      "id": "lobster",
+      "name": "Butter-poached lobster",
+      "course": "sea",
+      "price": 62,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Lobster medallions, sweet corn and golden chanterelles.",
+      "image": "images/dishes/lobster.webp",
+      "rank": 19,
+      "pairs": [
+        "meursault",
+        "blanc-de-blancs",
+        "sonoma-chard"
+      ]
+    },
+    {
+      "id": "ribeye",
+      "name": "Dry-aged ribeye",
+      "course": "land",
+      "price": 72,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "45-day dry-aged ribeye, roasted bone marrow and shallot.",
+      "image": "images/dishes/ribeye.webp",
+      "rank": 20,
+      "pairs": [
+        "napa-cab",
+        "saint-julien",
+        "cote-rotie"
+      ]
+    },
+    {
+      "id": "duck",
+      "name": "Duck breast, cherry",
+      "course": "land",
+      "price": 48,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Rosy duck breast, sour cherries and parsnip purée.",
+      "image": "images/dishes/duck.webp",
+      "rank": 21,
+      "pairs": [
+        "volnay",
+        "willamette-pinot",
+        "bourgogne-rouge"
+      ]
+    },
+    {
+      "id": "lamb",
+      "name": "Lamb chops, salsa verde",
+      "course": "land",
+      "price": 52,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Grilled lamb chops, smoked eggplant and salsa verde.",
+      "image": "images/dishes/lamb.webp",
+      "rank": 22,
+      "pairs": [
+        "cote-rotie",
+        "rioja",
+        "chateauneuf"
+      ]
+    },
+    {
+      "id": "pork",
+      "name": "Heritage pork loin",
+      "course": "land",
+      "price": 44,
+      "diets": [
+        "gf",
+        "nf"
+      ],
+      "description": "Heritage pork, apple butter and grain mustard.",
+      "image": "images/dishes/pork.webp",
+      "rank": 23,
+      "pairs": [
+        "chianti",
+        "barbera",
+        "tavel"
+      ]
+    },
+    {
+      "id": "carrots",
+      "name": "Charred carrots, labneh",
+      "course": "land",
+      "price": 32,
+      "diets": [
+        "veg",
+        "gf"
+      ],
+      "description": "Charred heirloom carrots, labneh and carrot-top pesto.",
+      "image": "images/dishes/carrots.webp",
+      "rank": 24,
+      "pairs": [
+        "tavel",
+        "sancerre",
+        "malbec"
+      ]
+    },
+    {
+      "id": "chocolate-dome",
+      "name": "Dark chocolate dome",
+      "course": "dessert",
+      "price": 16,
+      "diets": [
+        "veg",
+        "gf"
+      ],
+      "description": "70% chocolate, salted caramel and cocoa nib crumble.",
+      "image": "images/dishes/chocolate-dome.webp",
+      "rank": 25,
+      "pairs": [
+        "port-20",
+        "tokaji",
+        "malbec"
+      ]
+    },
+    {
+      "id": "lemon-tart",
+      "name": "Meyer lemon tart",
+      "course": "dessert",
+      "price": 15,
+      "diets": [
+        "veg",
+        "nf"
+      ],
+      "description": "Bright lemon curd and torched meringue in a short crust.",
+      "image": "images/dishes/lemon-tart.webp",
+      "rank": 26,
+      "pairs": [
+        "tokaji",
+        "sauternes",
+        "cremant-rose"
+      ]
+    },
+    {
+      "id": "pear",
+      "name": "Poached pear, almond",
+      "course": "dessert",
+      "price": 15,
+      "diets": [
+        "veg",
+        "gf"
+      ],
+      "description": "Red-wine poached pear, almond crumble and vanilla cream.",
+      "image": "images/dishes/pear.webp",
+      "rank": 27,
+      "pairs": [
+        "sauternes",
+        "tokaji",
+        "port-20"
+      ]
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese selection",
+      "course": "dessert",
+      "price": 24,
+      "diets": [
+        "veg"
+      ],
+      "description": "Three cheeses, honeycomb, walnut and fig with crisps.",
+      "image": "images/dishes/cheese.webp",
+      "rank": 28,
+      "pairs": [
+        "port-20",
+        "sauternes",
+        "pomerol"
+      ]
+    },
+    {
+      "id": "souffle",
+      "name": "Grand Marnier soufflé",
+      "course": "dessert",
+      "price": 18,
+      "diets": [
+        "veg",
+        "nf"
+      ],
+      "description": "Baked to order with orange liqueur and vanilla ice cream.",
+      "image": "images/dishes/souffle.webp",
+      "rank": 29,
+      "pairs": [
+        "sauternes",
+        "tokaji",
+        "cuvee-lune"
+      ]
+    },
+    {
+      "id": "petit-fours",
+      "name": "Petits fours",
+      "course": "dessert",
+      "price": 12,
+      "diets": [
+        "veg"
+      ],
+      "description": "Macarons and chocolate truffles to finish.",
+      "image": "images/dishes/petit-fours.webp",
+      "rank": 30,
+      "pairs": [
+        "port-20",
+        "cuvee-lune",
+        "tokaji"
+      ]
+    }
+  ],
+  "tastings": [
+    {
+      "key": "seasons",
+      "name": "Seasons",
+      "courses": 7,
+      "price": 145,
+      "pairing": 85,
+      "description": "Our signature menu follows the market week by week.",
+      "items": [
+        "Oysters, cucumber mignonette",
+        "Scallop crudo",
+        "Butternut velouté",
+        "Lobster ravioli",
+        "Halibut, beurre blanc",
+        "Duck breast, cherry",
+        "Dark chocolate dome"
+      ],
+      "image": "images/dishes/scallops.webp"
+    },
+    {
+      "key": "garden",
+      "name": "Garden",
+      "courses": 6,
+      "price": 120,
+      "pairing": 70,
+      "description": "A vegetarian menu built around the best of the season.",
+      "items": [
+        "Gruyère gougères",
+        "Roasted beets, goat cheese",
+        "Burrata & heirloom tomato",
+        "Wild mushroom risotto",
+        "Charred carrots, labneh",
+        "Meyer lemon tart"
+      ],
+      "image": "images/dishes/beets.webp"
+    },
+    {
+      "key": "counter",
+      "name": "Chef’s Counter",
+      "courses": 10,
+      "price": 210,
+      "pairing": 125,
+      "description": "Ten courses served by the chefs at the eight-seat counter, Wednesday to Saturday.",
+      "items": [
+        "Caviar & buckwheat blini",
+        "Wagyu tartare tartlets",
+        "Oysters, cucumber mignonette",
+        "Foie gras torchon",
+        "Tagliolini, parmesan, pepper",
+        "Seared scallops",
+        "Butter-poached lobster",
+        "Dry-aged ribeye",
+        "Cheese selection",
+        "Grand Marnier soufflé"
+      ],
+      "image": "images/dishes/ribeye.webp"
+    }
+  ],
+  "specials": [
+    {
+      "id": "white-truffle",
+      "title": "White truffle tagliolini",
+      "kind": "seasonal",
+      "months": [
+        10,
+        11,
+        12
+      ],
+      "days": [],
+      "price": 65,
+      "description": "Fresh tagliolini with butter, parmesan and white truffle shaved at the table.",
+      "image": "images/dishes/white-truffle.webp"
+    },
+    {
+      "id": "sunday-roast",
+      "title": "Sunday roast for two",
+      "kind": "weekly",
+      "months": [],
+      "days": [
+        0
+      ],
+      "price": 89,
+      "description": "Dry-aged sirloin carved for the table, crisp potatoes, Yorkshire pudding and jus.",
+      "image": "images/dishes/roast.webp"
+    },
+    {
+      "id": "lobster-tuesday",
+      "title": "Tuesday lobster night",
+      "kind": "weekly",
+      "months": [],
+      "days": [
+        2
+      ],
+      "price": 58,
+      "description": "A whole butter-poached lobster with corn, chanterelles and drawn butter.",
+      "image": "images/dishes/lobster-night.webp"
+    },
+    {
+      "id": "venison",
+      "title": "Venison, juniper, blackberry",
+      "kind": "seasonal",
+      "months": [
+        11,
+        12,
+        1,
+        2
+      ],
+      "days": [],
+      "price": 56,
+      "description": "Wild venison loin with juniper jus and late blackberries.",
+      "image": "images/dishes/venison.webp"
+    },
+    {
+      "id": "oyster-hour",
+      "title": "Oyster hour at the bar",
+      "kind": "weekly",
+      "months": [],
+      "days": [
+        4,
+        5,
+        6
+      ],
+      "price": 18,
+      "description": "Half a dozen oysters and a glass of Muscadet, 5 to 6 pm at the bar.",
+      "image": "images/dishes/oyster-hour.webp"
+    },
+    {
+      "id": "asparagus",
+      "title": "Spring asparagus & morels",
+      "kind": "seasonal",
+      "months": [
+        4,
+        5,
+        6
+      ],
+      "days": [],
+      "price": 34,
+      "description": "Green asparagus, morel mushrooms and a silky hollandaise.",
+      "image": "images/dishes/asparagus.webp"
+    }
+  ],
+  "events": [
+    {
+      "id": "burgundy-dinner",
+      "title": "Burgundy wine dinner",
+      "kind": "wine",
+      "weekday": 4,
+      "week": 1,
+      "fixed": "",
+      "time": "7:00 PM",
+      "price": 165,
+      "seats": 32,
+      "taken": 21,
+      "description": "Five courses paired with six wines from a small family estate in the Côte de Beaune, introduced by our sommelier.",
+      "menu": [
+        "Gougères & a crémant welcome",
+        "Scallop crudo · Bourgogne Blanc",
+        "Mushroom risotto · Meursault",
+        "Duck breast · Volnay",
+        "Cheese · Pommard",
+        "Petits fours"
+      ],
+      "image": "images/events/burgundy.webp"
+    },
+    {
+      "id": "truffle-night",
+      "title": "White truffle night",
+      "kind": "chef",
+      "weekday": 5,
+      "week": 3,
+      "fixed": "",
+      "time": "7:00 PM",
+      "price": 195,
+      "seats": 24,
+      "taken": 18,
+      "description": "A six-course celebration of the white truffle season, shaved tableside from the first course to dessert.",
+      "menu": [
+        "Truffle gougères",
+        "Burrata, truffle honey",
+        "White truffle tagliolini",
+        "Halibut, truffle beurre blanc",
+        "Aged parmesan, truffle",
+        "Chocolate & truffle"
+      ],
+      "image": "images/events/truffle.webp"
+    },
+    {
+      "id": "harvest-table",
+      "title": "Harvest chef’s table",
+      "kind": "chef",
+      "weekday": 6,
+      "week": 2,
+      "fixed": "",
+      "time": "6:30 PM",
+      "price": 210,
+      "seats": 10,
+      "taken": 10,
+      "description": "Ten guests, one long table in the kitchen and a menu written that morning from the farmers’ market.",
+      "menu": [
+        "Market snacks",
+        "Garden beets",
+        "Squash velouté",
+        "Hand-made pasta",
+        "Whole roasted fish",
+        "Wood-fired lamb",
+        "Orchard dessert"
+      ],
+      "image": "images/events/harvest.webp"
+    },
+    {
+      "id": "champagne-oysters",
+      "title": "Champagne & oysters",
+      "kind": "wine",
+      "weekday": 3,
+      "week": 4,
+      "fixed": "",
+      "time": "6:00 PM",
+      "price": 95,
+      "seats": 40,
+      "taken": 12,
+      "description": "Three grower champagnes, three oyster varieties and a raw bar, standing in the bar and lounge.",
+      "menu": [
+        "Three oyster varieties",
+        "Caviar blini",
+        "Three grower champagnes",
+        "Gougères"
+      ],
+      "image": "images/events/champagne.webp"
+    },
+    {
+      "id": "nye",
+      "title": "New Year’s Eve",
+      "kind": "holiday",
+      "weekday": 0,
+      "week": 0,
+      "fixed": "12-31",
+      "time": "8:00 PM",
+      "price": 295,
+      "seats": 48,
+      "taken": 30,
+      "description": "Eight courses, a champagne toast at midnight and live jazz in the dining room until 1 am.",
+      "menu": [
+        "Caviar & blini",
+        "Oysters",
+        "Foie gras torchon",
+        "Lobster ravioli",
+        "White truffle tagliolini",
+        "Ribeye & bone marrow",
+        "Cheese",
+        "Soufflé & champagne"
+      ],
+      "image": "images/events/nye.webp"
+    },
+    {
+      "id": "pasta-class",
+      "title": "Pasta-making class",
+      "kind": "class",
+      "weekday": 0,
+      "week": 5,
+      "fixed": "",
+      "time": "11:00 AM",
+      "price": 120,
+      "seats": 12,
+      "taken": 5,
+      "description": "Learn to make, cut and fold fresh pasta with our pasta chef, then sit down to lunch with a glass of wine.",
+      "menu": [
+        "Egg dough by hand",
+        "Tagliolini & ravioli",
+        "Three sauces",
+        "Lunch & a glass of wine"
+      ],
+      "image": "images/events/pasta.webp"
+    }
+  ],
+  "rooms": [
+    {
+      "key": "salon",
+      "name": "The Salon",
+      "min": 10,
+      "max": 16,
+      "spend": 1800,
+      "description": "A private room off the dining room with a fireplace and garden view."
+    },
+    {
+      "key": "cellar",
+      "name": "The Cellar",
+      "min": 16,
+      "max": 30,
+      "spend": 3500,
+      "description": "Under the stone arches of our wine cellar, lit by candles."
+    },
+    {
+      "key": "buyout",
+      "name": "Full buyout",
+      "min": 30,
+      "max": 60,
+      "spend": 9000,
+      "description": "The whole restaurant for your evening, with a custom menu."
+    }
+  ],
+  "hours": [
+    {
+      "day": "Sunday",
+      "open": "16:30",
+      "close": "20:30"
+    },
+    {
+      "day": "Monday",
+      "open": "",
+      "close": ""
+    },
+    {
+      "day": "Tuesday",
+      "open": "17:30",
+      "close": "21:30"
+    },
+    {
+      "day": "Wednesday",
+      "open": "17:30",
+      "close": "21:30"
+    },
+    {
+      "day": "Thursday",
+      "open": "17:30",
+      "close": "21:30"
+    },
+    {
+      "day": "Friday",
+      "open": "17:00",
+      "close": "22:00"
+    },
+    {
+      "day": "Saturday",
+      "open": "17:00",
+      "close": "22:00"
+    }
+  ],
+  "areas": [
+    {
+      "key": "dining",
+      "label": "Dining room",
+      "max": 8,
+      "description": "Our main room, linen-laid tables and soft candlelight."
+    },
+    {
+      "key": "bar",
+      "label": "Bar & lounge",
+      "max": 3,
+      "description": "The full menu at the bar, walk-ins welcome too."
+    },
+    {
+      "key": "counter",
+      "label": "Chef’s counter",
+      "max": 4,
+      "description": "Eight seats facing the kitchen; Chef’s Counter menu only, Wednesday to Saturday at 6:00 and 8:30."
+    }
+  ],
+  "wines": [
+    {
+      "id": "cuvee-lune",
+      "name": "Cuvée de la Lune Brut",
+      "producer": "Maison Vellerin",
+      "region": "champagne",
+      "country": "France",
+      "type": "sparkling",
+      "vintage": "NV",
+      "grapes": "Chardonnay, Pinot Noir",
+      "glass": 22,
+      "bottle": 110,
+      "note": "Fine bubbles, brioche and green apple.",
+      "pick": true
+    },
+    {
+      "id": "blanc-de-blancs",
+      "name": "Blanc de Blancs Extra Brut",
+      "producer": "Clos Aubier",
+      "region": "champagne",
+      "country": "France",
+      "type": "sparkling",
+      "vintage": "2016",
+      "grapes": "Chardonnay",
+      "glass": 0,
+      "bottle": 165,
+      "note": "Chalky, saline and very precise.",
+      "pick": false
+    },
+    {
+      "id": "cremant-rose",
+      "name": "Crémant de Loire Rosé",
+      "producer": "Domaine des Saules",
+      "region": "loire",
+      "country": "France",
+      "type": "sparkling",
+      "vintage": "NV",
+      "grapes": "Cabernet Franc",
+      "glass": 15,
+      "bottle": 64,
+      "note": "Wild strawberry and a dry finish.",
+      "pick": false
+    },
+    {
+      "id": "prosecco-colli",
+      "name": "Colli Asolani Prosecco",
+      "producer": "Tenuta Ferla",
+      "region": "veneto",
+      "country": "Italy",
+      "type": "sparkling",
+      "vintage": "NV",
+      "grapes": "Glera",
+      "glass": 13,
+      "bottle": 52,
+      "note": "Pear, white flowers, easy and bright.",
+      "pick": false
+    },
+    {
+      "id": "meursault",
+      "name": "Meursault Les Narvaux",
+      "producer": "Domaine Corvel",
+      "region": "burgundy",
+      "country": "France",
+      "type": "white",
+      "vintage": "2020",
+      "grapes": "Chardonnay",
+      "glass": 0,
+      "bottle": 180,
+      "note": "Toasted hazelnut, lemon curd, long and rich.",
+      "pick": true
+    },
+    {
+      "id": "chablis",
+      "name": "Chablis Premier Cru",
+      "producer": "Domaine Brisset",
+      "region": "burgundy",
+      "country": "France",
+      "type": "white",
+      "vintage": "2021",
+      "grapes": "Chardonnay",
+      "glass": 19,
+      "bottle": 92,
+      "note": "Oyster shell, citrus and a stony line.",
+      "pick": false
+    },
+    {
+      "id": "sancerre",
+      "name": "Sancerre Les Monts",
+      "producer": "Clos Duvrier",
+      "region": "loire",
+      "country": "France",
+      "type": "white",
+      "vintage": "2022",
+      "grapes": "Sauvignon Blanc",
+      "glass": 17,
+      "bottle": 76,
+      "note": "Grapefruit, cut grass and flint.",
+      "pick": false
+    },
+    {
+      "id": "riesling-mosel",
+      "name": "Riesling Kabinett",
+      "producer": "Weingut Ostler",
+      "region": "mosel",
+      "country": "Germany",
+      "type": "white",
+      "vintage": "2021",
+      "grapes": "Riesling",
+      "glass": 15,
+      "bottle": 68,
+      "note": "Lime, slate and a touch of sweetness.",
+      "pick": false
+    },
+    {
+      "id": "albarino",
+      "name": "Albariño Rías Baixas",
+      "producer": "Bodegas Marea",
+      "region": "galicia",
+      "country": "Spain",
+      "type": "white",
+      "vintage": "2022",
+      "grapes": "Albariño",
+      "glass": 14,
+      "bottle": 58,
+      "note": "Saline, peach and fresh herbs.",
+      "pick": false
+    },
+    {
+      "id": "sonoma-chard",
+      "name": "Russian River Chardonnay",
+      "producer": "Halden Ridge",
+      "region": "sonoma",
+      "country": "USA",
+      "type": "white",
+      "vintage": "2021",
+      "grapes": "Chardonnay",
+      "glass": 18,
+      "bottle": 84,
+      "note": "Ripe pear, vanilla and bright acidity.",
+      "pick": false
+    },
+    {
+      "id": "muscadet",
+      "name": "Muscadet Sèvre et Maine",
+      "producer": "Domaine Pellet",
+      "region": "loire",
+      "country": "France",
+      "type": "white",
+      "vintage": "2022",
+      "grapes": "Melon de Bourgogne",
+      "glass": 12,
+      "bottle": 48,
+      "note": "Crisp, lemony, made for oysters.",
+      "pick": false
+    },
+    {
+      "id": "provence-rose",
+      "name": "Côtes de Provence Rosé",
+      "producer": "Château Lavanne",
+      "region": "provence",
+      "country": "France",
+      "type": "rose",
+      "vintage": "2023",
+      "grapes": "Grenache, Cinsault",
+      "glass": 14,
+      "bottle": 58,
+      "note": "Pale, dry, peach and herbs.",
+      "pick": false
+    },
+    {
+      "id": "tavel",
+      "name": "Tavel",
+      "producer": "Domaine Rocaille",
+      "region": "rhone",
+      "country": "France",
+      "type": "rose",
+      "vintage": "2022",
+      "grapes": "Grenache",
+      "glass": 0,
+      "bottle": 62,
+      "note": "Deeper rosé with red berries and spice.",
+      "pick": false
+    },
+    {
+      "id": "volnay",
+      "name": "Volnay Premier Cru",
+      "producer": "Domaine Corvel",
+      "region": "burgundy",
+      "country": "France",
+      "type": "red",
+      "vintage": "2019",
+      "grapes": "Pinot Noir",
+      "glass": 0,
+      "bottle": 195,
+      "note": "Rose petal, red cherry and silky tannin.",
+      "pick": true
+    },
+    {
+      "id": "bourgogne-rouge",
+      "name": "Bourgogne Rouge",
+      "producer": "Maison Lemaire",
+      "region": "burgundy",
+      "country": "France",
+      "type": "red",
+      "vintage": "2021",
+      "grapes": "Pinot Noir",
+      "glass": 18,
+      "bottle": 78,
+      "note": "Bright cherry and forest floor.",
+      "pick": false
+    },
+    {
+      "id": "willamette-pinot",
+      "name": "Willamette Valley Pinot Noir",
+      "producer": "Fernhill Cellars",
+      "region": "oregon",
+      "country": "USA",
+      "type": "red",
+      "vintage": "2021",
+      "grapes": "Pinot Noir",
+      "glass": 19,
+      "bottle": 88,
+      "note": "Cranberry, tea and baking spice.",
+      "pick": false
+    },
+    {
+      "id": "saint-julien",
+      "name": "Saint-Julien",
+      "producer": "Château Bellefosse",
+      "region": "bordeaux",
+      "country": "France",
+      "type": "red",
+      "vintage": "2016",
+      "grapes": "Cabernet Sauvignon, Merlot",
+      "glass": 0,
+      "bottle": 240,
+      "note": "Cassis, cedar and graphite.",
+      "pick": false
+    },
+    {
+      "id": "pomerol",
+      "name": "Pomerol",
+      "producer": "Clos des Ormes",
+      "region": "bordeaux",
+      "country": "France",
+      "type": "red",
+      "vintage": "2015",
+      "grapes": "Merlot",
+      "glass": 0,
+      "bottle": 320,
+      "note": "Plush plum, truffle and velvet.",
+      "pick": false
+    },
+    {
+      "id": "barolo",
+      "name": "Barolo Cannubi",
+      "producer": "Cascina Vitale",
+      "region": "piedmont",
+      "country": "Italy",
+      "type": "red",
+      "vintage": "2017",
+      "grapes": "Nebbiolo",
+      "glass": 0,
+      "bottle": 210,
+      "note": "Tar and roses, firm and long.",
+      "pick": true
+    },
+    {
+      "id": "barbera",
+      "name": "Barbera d’Alba",
+      "producer": "Cascina Vitale",
+      "region": "piedmont",
+      "country": "Italy",
+      "type": "red",
+      "vintage": "2021",
+      "grapes": "Barbera",
+      "glass": 16,
+      "bottle": 66,
+      "note": "Juicy dark cherry and fresh acidity.",
+      "pick": false
+    },
+    {
+      "id": "brunello",
+      "name": "Brunello di Montalcino",
+      "producer": "Podere Sasso",
+      "region": "tuscany",
+      "country": "Italy",
+      "type": "red",
+      "vintage": "2018",
+      "grapes": "Sangiovese",
+      "glass": 0,
+      "bottle": 185,
+      "note": "Leather, dried cherry and herbs.",
+      "pick": false
+    },
+    {
+      "id": "chianti",
+      "name": "Chianti Classico Riserva",
+      "producer": "Fattoria Lupi",
+      "region": "tuscany",
+      "country": "Italy",
+      "type": "red",
+      "vintage": "2019",
+      "grapes": "Sangiovese",
+      "glass": 17,
+      "bottle": 74,
+      "note": "Sour cherry, violet and savory notes.",
+      "pick": false
+    },
+    {
+      "id": "rioja",
+      "name": "Rioja Gran Reserva",
+      "producer": "Bodegas Alcor",
+      "region": "rioja",
+      "country": "Spain",
+      "type": "red",
+      "vintage": "2014",
+      "grapes": "Tempranillo",
+      "glass": 0,
+      "bottle": 120,
+      "note": "Vanilla, dried fig and tobacco.",
+      "pick": false
+    },
+    {
+      "id": "cote-rotie",
+      "name": "Côte-Rôtie",
+      "producer": "Domaine Ferrand",
+      "region": "rhone",
+      "country": "France",
+      "type": "red",
+      "vintage": "2018",
+      "grapes": "Syrah, Viognier",
+      "glass": 0,
+      "bottle": 175,
+      "note": "Black olive, violet and smoked meat.",
+      "pick": false
+    },
+    {
+      "id": "chateauneuf",
+      "name": "Châteauneuf-du-Pape",
+      "producer": "Domaine Rocaille",
+      "region": "rhone",
+      "country": "France",
+      "type": "red",
+      "vintage": "2019",
+      "grapes": "Grenache, Syrah",
+      "glass": 0,
+      "bottle": 130,
+      "note": "Garrigue, kirsch and warm spice.",
+      "pick": false
+    },
+    {
+      "id": "napa-cab",
+      "name": "Napa Valley Cabernet",
+      "producer": "Stonebrook",
+      "region": "napa",
+      "country": "USA",
+      "type": "red",
+      "vintage": "2019",
+      "grapes": "Cabernet Sauvignon",
+      "glass": 26,
+      "bottle": 150,
+      "note": "Blackcurrant, mocha and fine tannin.",
+      "pick": false
+    },
+    {
+      "id": "malbec",
+      "name": "Malbec Gran Reserva",
+      "producer": "Finca Altamira",
+      "region": "mendoza",
+      "country": "Argentina",
+      "type": "red",
+      "vintage": "2020",
+      "grapes": "Malbec",
+      "glass": 15,
+      "bottle": 62,
+      "note": "Plum, violet and soft spice.",
+      "pick": false
+    },
+    {
+      "id": "sauternes",
+      "name": "Sauternes",
+      "producer": "Château Doré",
+      "region": "bordeaux",
+      "country": "France",
+      "type": "sweet",
+      "vintage": "2017",
+      "grapes": "Sémillon",
+      "glass": 18,
+      "bottle": 120,
+      "note": "Apricot, honey and saffron.",
+      "pick": true
+    },
+    {
+      "id": "tokaji",
+      "name": "Tokaji Aszú 5 Puttonyos",
+      "producer": "Királyi Pince",
+      "region": "tokaj",
+      "country": "Hungary",
+      "type": "sweet",
+      "vintage": "2016",
+      "grapes": "Furmint",
+      "glass": 16,
+      "bottle": 110,
+      "note": "Orange marmalade and bright acidity.",
+      "pick": false
+    },
+    {
+      "id": "port-20",
+      "name": "20-Year Tawny Port",
+      "producer": "Quinta da Serra",
+      "region": "douro",
+      "country": "Portugal",
+      "type": "sweet",
+      "vintage": "NV",
+      "grapes": "Touriga Nacional",
+      "glass": 14,
+      "bottle": 0,
+      "note": "Walnut, caramel and dried fig.",
+      "pick": false
+    }
+  ],
+  "designs": [
+    {
+      "key": "ember",
+      "label": "Ember",
+      "note": "Warm charcoal and gold"
+    },
+    {
+      "key": "garden",
+      "label": "Garden",
+      "note": "Sage and cream"
+    },
+    {
+      "key": "cellar",
+      "label": "Cellar",
+      "note": "Deep burgundy"
+    },
+    {
+      "key": "ivory",
+      "label": "Ivory",
+      "note": "Ivory and black"
+    }
+  ],
+  "experiences": [
+    {
+      "key": "seasons-two",
+      "label": "Seasons tasting for two",
+      "amount": 290
+    },
+    {
+      "key": "seasons-pair",
+      "label": "Seasons for two, with pairing",
+      "amount": 460
+    },
+    {
+      "key": "counter-two",
+      "label": "Chef’s Counter for two",
+      "amount": 420
+    }
+  ]
+}

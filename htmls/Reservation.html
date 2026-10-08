@@ -1,0 +1,100 @@
+<div class="rv-site" data-page="Reservation">
+<div class="rv-strip"><a href="Events">Now booking holiday dinners and New Year&rsquo;s Eve</a></div>
+<header class="rv-head" id="rv-head">
+    <div class="rv-head-row">
+        <button type="button" class="rv-burger" aria-label="Menu" onclick="ReservationJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="rv-logo" href="Home"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="rv-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></a>
+        <nav class="rv-nav" id="rv-nav">
+            <div class="rv-nav-top"><span class="rv-logo"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="rv-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></span>
+                <button type="button" class="rv-nav-x" aria-label="Close" onclick="ReservationJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="rv-menu">
+                <li class="rv-mi"><div class="rv-mrow"><a class="rv-ml" href="Menu">Menu</a><button type="button" class="rv-mx" aria-label="Expand" onclick="ReservationJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="rv-mega"><div class="rv-mega-in"><div class="rv-mcol"><div class="rv-mtitle">&Agrave; la carte</div><ul><li><a href="Menu?course=snacks">Snacks</a></li><li><a href="Menu?course=starters">Starters</a></li><li><a href="Menu?course=pasta">Pasta &amp; grains</a></li><li><a href="Menu?course=sea">From the sea</a></li><li><a href="Menu?course=land">From the land</a></li><li><a href="Menu?course=dessert">Desserts</a></li></ul></div><div class="rv-mcol"><div class="rv-mtitle">Tasting menus</div><ul><li><a href="Menu#tasting">Seasons &middot; 7 courses</a></li><li><a href="Menu#tasting">Garden &middot; 6 courses</a></li><li><a href="Menu#tasting">Chef’s Counter &middot; 10 courses</a></li><li><a href="Menu#plan">Plan your evening</a></li></ul></div><a class="rv-mpromo" href="Menu"><img src="images/banners/menu.webp" alt="" loading="lazy"><span class="rv-mpromo-t">Tonight&rsquo;s menu</span><span class="rv-mpromo-c">See the full menu &rarr;</span></a></div></div></li><li class="rv-mi"><div class="rv-mrow"><a class="rv-ml" href="Specials">Specials</a></div></li><li class="rv-mi"><div class="rv-mrow"><a class="rv-ml" href="Events">Events</a><button type="button" class="rv-mx" aria-label="Expand" onclick="ReservationJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="rv-mega"><div class="rv-mega-in"><div class="rv-mcol"><div class="rv-mtitle">Upcoming</div><ul><li><a href="Event?id=burgundy-dinner">Burgundy wine dinner</a></li><li><a href="Event?id=truffle-night">White truffle night</a></li><li><a href="Event?id=harvest-table">Harvest chef’s table</a></li><li><a href="Event?id=champagne-oysters">Champagne &amp; oysters</a></li><li><a href="Event?id=nye">New Year’s Eve</a></li><li><a href="Event?id=pasta-class">Pasta-making class</a></li></ul></div><div class="rv-mcol"><div class="rv-mtitle">Private dining</div><ul><li><a href="Events#private">The Salon &middot; 10&ndash;16</a></li><li><a href="Events#private">The Cellar &middot; 16&ndash;30</a></li><li><a href="Events#private">Full buyout &middot; 30&ndash;60</a></li></ul></div><a class="rv-mpromo" href="Events"><img src="images/banners/events.webp" alt="" loading="lazy"><span class="rv-mpromo-t">Wine dinners &amp; chef&rsquo;s tables</span><span class="rv-mpromo-c">All events &rarr;</span></a></div></div></li><li class="rv-mi"><div class="rv-mrow"><a class="rv-ml" href="Wine">Wine</a><button type="button" class="rv-mx" aria-label="Expand" onclick="ReservationJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="rv-mega"><div class="rv-mega-in"><div class="rv-mcol"><div class="rv-mtitle">The list</div><ul><li><a href="Wine?type=sparkling">Sparkling</a></li><li><a href="Wine?type=white">White</a></li><li><a href="Wine?type=rose">Rosé</a></li><li><a href="Wine?type=red">Red</a></li><li><a href="Wine?type=sweet">Sweet</a></li></ul></div><div class="rv-mcol"><div class="rv-mtitle">Regions</div><ul><li><a href="Wine?region=champagne">Champagne</a></li><li><a href="Wine?region=burgundy">Burgundy</a></li><li><a href="Wine?region=loire">Loire</a></li><li><a href="Wine?region=bordeaux">Bordeaux</a></li><li><a href="Wine?region=rhone">Rhône</a></li><li><a href="Wine?region=provence">Provence</a></li><li><a href="Wine?region=piedmont">Piedmont</a></li></ul></div><a class="rv-mpromo" href="Wine"><img src="images/banners/wine.webp" alt="" loading="lazy"><span class="rv-mpromo-t">600 bottles, 30 by the glass</span><span class="rv-mpromo-c">Open the wine list &rarr;</span></a></div></div></li><li class="rv-mi"><div class="rv-mrow"><a class="rv-ml" href="GiftCards">Gift Cards</a></div></li><li class="rv-mi"><div class="rv-mrow"><a class="rv-ml" href="About">About</a></div></li><li class="rv-mi"><div class="rv-mrow"><a class="rv-ml" href="Contact">Contact</a></div></li>
+            </ul>
+            <a class="rv-btn rv-nav-cta" href="Reservation">Reserve a table</a>
+        </nav>
+        <div class="rv-search" id="rv-search">
+            <span class="rv-search-ic"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="rv-q" placeholder="Search the menu" autocomplete="off" maxlength="40" oninput="ReservationJs.search(this.value)" onfocus="ReservationJs.search(this.value)" aria-label="Search">
+            <div class="rv-sugg" id="rv-sugg"></div>
+        </div>
+        <a class="rv-btn rv-reserve" href="Reservation">Reserve</a>
+    </div>
+    <div class="rv-scrim" id="rv-scrim" onclick="ReservationJs.closeNav()"></div>
+</header>
+<main class="rv-main">
+    <section class="rv-banner">
+        <img src="images/banners/reservation.webp" alt="">
+        <div class="rv-banner-txt"><div class="rv-eyebrow">Reservations</div><h1>Reserve a table</h1><p>Pick a date and party size and we&rsquo;ll show the open times. Availability is checked on the server every time.</p></div>
+    </section>
+    <div class="rv-wrap"><div class="rv-crumb"><a href="Home">Home</a><span>/</span>Reservation</div></div>
+    <div class="rv-wrap">
+        <section class="rv-sec rv-book">
+            <div class="rv-steps-col">
+                <div class="rv-form rv-find">
+                    <div class="rv-step-h"><span>1</span><b>When and how many</b></div>
+                    <div class="rv-row2">
+                        <label>Date<select id="rv-date" class="rv-sel">{plhd_dates}</select></label>
+                        <label>Party<select id="rv-party" class="rv-sel"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option><option value="7">7 guests</option><option value="8">8 guests</option><option value="9">9 or more</option></select></label>
+                    </div>
+                    <div class="rv-seg" role="radiogroup" aria-label="Seating"><button type="button" class="rv-seg-b rv-act" data-a="dining" onclick="ReservationJs.area('dining')">Dining room</button><button type="button" class="rv-seg-b" data-a="bar" onclick="ReservationJs.area('bar')">Bar &amp; lounge</button><button type="button" class="rv-seg-b" data-a="counter" onclick="ReservationJs.area('counter')">Chef’s counter</button></div>
+                    <p class="rv-fine" id="rv-area-note">Our main room, linen-laid tables and soft candlelight.</p>
+                    <button type="button" class="rv-btn" onclick="ReservationJs.find()">Find a table</button>
+                    <div class="rv-slots" id="rv-slots">{plhd_slots}</div>
+                </div>
+                <div class="rv-form rv-details" id="rv-form">
+                    <div class="rv-step-h"><span>2</span><b>Your details</b></div>
+                    <input type="hidden" id="rv-time" value="{plhd_time}">
+                    <div class="rv-picked" id="rv-picked">{plhd_picked}</div>
+                    <div class="rv-row2">
+                        <label>Name<input type="text" id="rv-name" maxlength="60" autocomplete="off"><em id="rv-e-name"></em></label>
+                        <label>Phone<input type="tel" id="rv-phone" maxlength="20" autocomplete="off" placeholder="555 014 1234"><em id="rv-e-phone"></em></label>
+                    </div>
+                    <label>Email<input type="email" id="rv-email" maxlength="80" autocomplete="off"><em id="rv-e-email"></em></label>
+                    <label>Occasion<select id="rv-occasion" class="rv-sel"><option value="">No special occasion</option><option value="birthday">Birthday</option><option value="anniversary">Anniversary</option><option value="business">Business dinner</option><option value="celebration">Celebration</option><option value="proposal">Proposal</option></select></label>
+                    <label>Notes for the kitchen<textarea id="rv-notes" rows="3" maxlength="500" placeholder="Allergies, a quiet table, a birthday candle"></textarea></label>
+                    <label class="rv-check"><input type="checkbox" id="rv-agree"><span>I understand the 24-hour cancellation policy.</span></label><em id="rv-e-agree"></em>
+                    <em id="rv-e-slot"></em>
+                    <button type="button" class="rv-btn" onclick="ReservationJs.book()">Confirm reservation</button>
+                    <p class="rv-fine">Demo booking: availability and details are checked on the server, but no table is held.</p>
+                </div>
+                <div class="rv-done" id="rv-done"></div>
+            </div>
+            <div class="rv-aside">
+                <div class="rv-box"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><b>Opening hours</b><p>{plhd_hours}</p></div></div>
+                <div class="rv-box"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5"/><circle cx="17" cy="9" r="2.6"/><path d="M16.5 14.6c2.6.2 4.4 1.9 5 5.4"/></svg><div><b>Nine or more?</b><p>Our Salon and Cellar seat 10 to 60. <a href="Events#private">Plan a private event &rarr;</a></p></div></div>
+                <div class="rv-box"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c1.5 2 1.5 3.5 0 5-1.5-1.5-1.5-3 0-5z"/><rect x="8" y="10" width="8" height="11" rx="1"/></svg><div><b>Chef&rsquo;s counter</b><p>Eight seats facing the kitchen, Wednesday to Saturday at 6:00 and 8:30, with a $50 per person deposit.</p></div></div>
+                <div class="rv-box"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg><div><b>Same-day changes</b><p>Call us at (555) 014-3300 and we&rsquo;ll do our best.</p></div></div>
+            </div>
+        </section>
+    </div>
+</main>
+<section class="rv-band">
+    <img src="images/banners/reservation.webp" alt="" loading="lazy">
+    <div class="rv-band-in">
+        <div class="rv-eyebrow">Reservations</div>
+        <h3>A table is waiting.</h3>
+        <p>Book up to 60 days ahead. For nine or more, ask about private dining.</p>
+        <a class="rv-btn" href="Reservation">Reserve a table</a>
+    </div>
+</section>
+<footer class="rv-foot">
+    <div class="rv-foot-in">
+        <div class="rv-fbrand">
+            <a class="rv-logo rv-logo-l" href="Home"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="rv-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></a>
+            <p>Seasonal tasting menus, served slowly. Event invitations and new menus, about once a month.</p>
+            <div class="rv-nl-f"><input type="email" id="rv-nl-email" placeholder="Your email" maxlength="80" autocomplete="off" aria-label="Email"><button type="button" onclick="ReservationJs.subscribe()">Join the list</button></div>
+            <div class="rv-nl-msg" id="rv-nl-msg"></div>
+        </div>
+        <div class="rv-fcol"><div class="rv-ftitle">Visit</div><p class="rv-faddr">214 Larkspur Street, Riverton<br>(555) 014-3300<br>hello@aurelle.example</p><p class="rv-faddr">Tue&ndash;Thu 5:30&ndash;9:30<br>Fri&ndash;Sat 5:00&ndash;10:00<br>Sun 4:30&ndash;8:30 &middot; Mon closed</p></div>
+        <div class="rv-fcol"><div class="rv-ftitle">Dine</div><ul><li><a href="Menu">Menu</a></li><li><a href="Specials">Specials</a></li><li><a href="Events">Events</a></li><li><a href="Wine">Wine list</a></li></ul></div><div class="rv-fcol"><div class="rv-ftitle">Aurelle</div><ul><li><a href="About">About</a></li><li><a href="GiftCards">Gift cards</a></li><li><a href="Events#private">Private dining</a></li><li><a href="Contact">Contact</a></li></ul></div>
+    </div>
+    <div class="rv-disc">Aurelle is a fictional restaurant made for a website template. Menus, prices, events and wines are illustrative &mdash; no booking is made and nothing is charged.</div>
+    <div class="rv-foot-bar">
+        <span>&copy; 2026 Aurelle (fictional). All rights reserved.</span>
+        <span class="rv-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="Contact" aria-label="Contact"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></a></span>
+        <span class="rv-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+<div class="rv-modal" id="rv-modal" onclick="ReservationJs.closeModal(event)"><div class="rv-modal-box" id="rv-modal-box"></div></div>
+<div class="rv-toast" id="rv-toast" role="status"></div>
+</div>

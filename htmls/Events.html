@@ -1,0 +1,87 @@
+<div class="ev-site" data-page="Events">
+<div class="ev-strip"><a href="Events">Now booking holiday dinners and New Year&rsquo;s Eve</a></div>
+<header class="ev-head" id="ev-head">
+    <div class="ev-head-row">
+        <button type="button" class="ev-burger" aria-label="Menu" onclick="EventsJs.openNav()"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <a class="ev-logo" href="Home"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="ev-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></a>
+        <nav class="ev-nav" id="ev-nav">
+            <div class="ev-nav-top"><span class="ev-logo"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="ev-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></span>
+                <button type="button" class="ev-nav-x" aria-label="Close" onclick="EventsJs.closeNav()"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+            <ul class="ev-menu">
+                <li class="ev-mi"><div class="ev-mrow"><a class="ev-ml" href="Menu">Menu</a><button type="button" class="ev-mx" aria-label="Expand" onclick="EventsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ev-mega"><div class="ev-mega-in"><div class="ev-mcol"><div class="ev-mtitle">&Agrave; la carte</div><ul><li><a href="Menu?course=snacks">Snacks</a></li><li><a href="Menu?course=starters">Starters</a></li><li><a href="Menu?course=pasta">Pasta &amp; grains</a></li><li><a href="Menu?course=sea">From the sea</a></li><li><a href="Menu?course=land">From the land</a></li><li><a href="Menu?course=dessert">Desserts</a></li></ul></div><div class="ev-mcol"><div class="ev-mtitle">Tasting menus</div><ul><li><a href="Menu#tasting">Seasons &middot; 7 courses</a></li><li><a href="Menu#tasting">Garden &middot; 6 courses</a></li><li><a href="Menu#tasting">Chef’s Counter &middot; 10 courses</a></li><li><a href="Menu#plan">Plan your evening</a></li></ul></div><a class="ev-mpromo" href="Menu"><img src="images/banners/menu.webp" alt="" loading="lazy"><span class="ev-mpromo-t">Tonight&rsquo;s menu</span><span class="ev-mpromo-c">See the full menu &rarr;</span></a></div></div></li><li class="ev-mi"><div class="ev-mrow"><a class="ev-ml" href="Specials">Specials</a></div></li><li class="ev-mi ev-on"><div class="ev-mrow"><a class="ev-ml" href="Events">Events</a><button type="button" class="ev-mx" aria-label="Expand" onclick="EventsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ev-mega"><div class="ev-mega-in"><div class="ev-mcol"><div class="ev-mtitle">Upcoming</div><ul><li><a href="Event?id=burgundy-dinner">Burgundy wine dinner</a></li><li><a href="Event?id=truffle-night">White truffle night</a></li><li><a href="Event?id=harvest-table">Harvest chef’s table</a></li><li><a href="Event?id=champagne-oysters">Champagne &amp; oysters</a></li><li><a href="Event?id=nye">New Year’s Eve</a></li><li><a href="Event?id=pasta-class">Pasta-making class</a></li></ul></div><div class="ev-mcol"><div class="ev-mtitle">Private dining</div><ul><li><a href="Events#private">The Salon &middot; 10&ndash;16</a></li><li><a href="Events#private">The Cellar &middot; 16&ndash;30</a></li><li><a href="Events#private">Full buyout &middot; 30&ndash;60</a></li></ul></div><a class="ev-mpromo" href="Events"><img src="images/banners/events.webp" alt="" loading="lazy"><span class="ev-mpromo-t">Wine dinners &amp; chef&rsquo;s tables</span><span class="ev-mpromo-c">All events &rarr;</span></a></div></div></li><li class="ev-mi"><div class="ev-mrow"><a class="ev-ml" href="Wine">Wine</a><button type="button" class="ev-mx" aria-label="Expand" onclick="EventsJs.toggleSub(this)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button></div><div class="ev-mega"><div class="ev-mega-in"><div class="ev-mcol"><div class="ev-mtitle">The list</div><ul><li><a href="Wine?type=sparkling">Sparkling</a></li><li><a href="Wine?type=white">White</a></li><li><a href="Wine?type=rose">Rosé</a></li><li><a href="Wine?type=red">Red</a></li><li><a href="Wine?type=sweet">Sweet</a></li></ul></div><div class="ev-mcol"><div class="ev-mtitle">Regions</div><ul><li><a href="Wine?region=champagne">Champagne</a></li><li><a href="Wine?region=burgundy">Burgundy</a></li><li><a href="Wine?region=loire">Loire</a></li><li><a href="Wine?region=bordeaux">Bordeaux</a></li><li><a href="Wine?region=rhone">Rhône</a></li><li><a href="Wine?region=provence">Provence</a></li><li><a href="Wine?region=piedmont">Piedmont</a></li></ul></div><a class="ev-mpromo" href="Wine"><img src="images/banners/wine.webp" alt="" loading="lazy"><span class="ev-mpromo-t">600 bottles, 30 by the glass</span><span class="ev-mpromo-c">Open the wine list &rarr;</span></a></div></div></li><li class="ev-mi"><div class="ev-mrow"><a class="ev-ml" href="GiftCards">Gift Cards</a></div></li><li class="ev-mi"><div class="ev-mrow"><a class="ev-ml" href="About">About</a></div></li><li class="ev-mi"><div class="ev-mrow"><a class="ev-ml" href="Contact">Contact</a></div></li>
+            </ul>
+            <a class="ev-btn ev-nav-cta" href="Reservation">Reserve a table</a>
+        </nav>
+        <div class="ev-search" id="ev-search">
+            <span class="ev-search-ic"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></span>
+            <input type="search" id="ev-q" placeholder="Search the menu" autocomplete="off" maxlength="40" oninput="EventsJs.search(this.value)" onfocus="EventsJs.search(this.value)" aria-label="Search">
+            <div class="ev-sugg" id="ev-sugg"></div>
+        </div>
+        <a class="ev-btn ev-reserve" href="Reservation">Reserve</a>
+    </div>
+    <div class="ev-scrim" id="ev-scrim" onclick="EventsJs.closeNav()"></div>
+</header>
+<main class="ev-main">
+    <section class="ev-banner">
+        <img src="images/banners/events.webp" alt="">
+        <div class="ev-banner-txt"><div class="ev-eyebrow">Events</div><h1>Evenings worth planning for</h1><p>Wine dinners, chef&rsquo;s tables, holidays and classes. Seats are limited and dates are worked out on the server.</p></div>
+    </section>
+    <div class="ev-wrap"><div class="ev-crumb"><a href="Home">Home</a><span>/</span>Events</div></div>
+    <div class="ev-wrap">
+        <div class="ev-toolbar"><div class="ev-chips" id="ev-chips-kind">{plhd_chips}</div><span class="ev-count" id="ev-count">{plhd_count}</span></div>
+        <div class="ev-cards ev-cards-3" id="ev-grid">{plhd_grid}</div>
+        <section class="ev-sec ev-two" id="private">
+            <div>
+                <div class="ev-eyebrow">Private dining</div><h2 class="ev-h2">Your own room, your own menu</h2>
+                <p class="ev-lead">From an intimate dinner for ten to the whole restaurant for sixty. Tell us the date and size and we&rsquo;ll send an estimate straight back.</p>
+                <div class="ev-rooms"><div class="ev-room"><b>The Salon</b><span>10&ndash;16 guests &middot; from $1,800</span><p>A private room off the dining room with a fireplace and garden view.</p></div><div class="ev-room"><b>The Cellar</b><span>16&ndash;30 guests &middot; from $3,500</span><p>Under the stone arches of our wine cellar, lit by candles.</p></div><div class="ev-room"><b>Full buyout</b><span>30&ndash;60 guests &middot; from $9,000</span><p>The whole restaurant for your evening, with a custom menu.</p></div></div>
+            </div>
+            <div class="ev-form" id="ev-form">
+                <div class="ev-eyebrow">Inquiry</div><h3>Plan a private event</h3>
+                <div class="ev-row2">
+                    <label>Name<input type="text" id="ev-name" maxlength="60" autocomplete="off"><em id="ev-e-name"></em></label>
+                    <label>Phone<input type="tel" id="ev-phone" maxlength="20" autocomplete="off" placeholder="555 014 1234"><em id="ev-e-phone"></em></label>
+                </div>
+                <label>Email<input type="email" id="ev-email" maxlength="80" autocomplete="off"><em id="ev-e-email"></em></label>
+                <div class="ev-row2">
+                    <label>Date<input type="date" id="ev-date"><em id="ev-e-date"></em></label>
+                    <label>Guests<input type="number" id="ev-guests" min="10" max="60" value="16"><em id="ev-e-guests"></em></label>
+                </div>
+                <label>Room<select id="ev-room" class="ev-sel"><option value="">Choose a room</option><option value="salon">The Salon (10&ndash;16 guests)</option><option value="cellar">The Cellar (16&ndash;30 guests)</option><option value="buyout">Full buyout (30&ndash;60 guests)</option></select><em id="ev-e-room"></em></label>
+                <label>Notes<textarea id="ev-notes" rows="3" maxlength="600" placeholder="Occasion, dietary needs, timing"></textarea></label>
+                <button type="button" class="ev-btn" onclick="EventsJs.inquire()">Send inquiry</button>
+                <div class="ev-sent" id="ev-sent"></div>
+            </div>
+        </section>
+    </div>
+</main>
+<section class="ev-band">
+    <img src="images/banners/reservation.webp" alt="" loading="lazy">
+    <div class="ev-band-in">
+        <div class="ev-eyebrow">Reservations</div>
+        <h3>A table is waiting.</h3>
+        <p>Book up to 60 days ahead. For nine or more, ask about private dining.</p>
+        <a class="ev-btn" href="Reservation">Reserve a table</a>
+    </div>
+</section>
+<footer class="ev-foot">
+    <div class="ev-foot-in">
+        <div class="ev-fbrand">
+            <a class="ev-logo ev-logo-l" href="Home"><svg viewBox="0 0 48 48" width="38" height="38" aria-hidden="true"><circle cx="24" cy="24" r="22.5" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M24 9 L34 36 M24 9 L14 36 M18.2 27 H29.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="9" r="1.8" fill="currentColor"/></svg><span class="ev-logo-t">Aurelle<small>Restaurant &middot; Riverton</small></span></a>
+            <p>Seasonal tasting menus, served slowly. Event invitations and new menus, about once a month.</p>
+            <div class="ev-nl-f"><input type="email" id="ev-nl-email" placeholder="Your email" maxlength="80" autocomplete="off" aria-label="Email"><button type="button" onclick="EventsJs.subscribe()">Join the list</button></div>
+            <div class="ev-nl-msg" id="ev-nl-msg"></div>
+        </div>
+        <div class="ev-fcol"><div class="ev-ftitle">Visit</div><p class="ev-faddr">214 Larkspur Street, Riverton<br>(555) 014-3300<br>hello@aurelle.example</p><p class="ev-faddr">Tue&ndash;Thu 5:30&ndash;9:30<br>Fri&ndash;Sat 5:00&ndash;10:00<br>Sun 4:30&ndash;8:30 &middot; Mon closed</p></div>
+        <div class="ev-fcol"><div class="ev-ftitle">Dine</div><ul><li><a href="Menu">Menu</a></li><li><a href="Specials">Specials</a></li><li><a href="Events">Events</a></li><li><a href="Wine">Wine list</a></li></ul></div><div class="ev-fcol"><div class="ev-ftitle">Aurelle</div><ul><li><a href="About">About</a></li><li><a href="GiftCards">Gift cards</a></li><li><a href="Events#private">Private dining</a></li><li><a href="Contact">Contact</a></li></ul></div>
+    </div>
+    <div class="ev-disc">Aurelle is a fictional restaurant made for a website template. Menus, prices, events and wines are illustrative &mdash; no booking is made and nothing is charged.</div>
+    <div class="ev-foot-bar">
+        <span>&copy; 2026 Aurelle (fictional). All rights reserved.</span>
+        <span class="ev-social"><a href="#" aria-label="Photos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a><a href="#" aria-label="Videos"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg></a><a href="Contact" aria-label="Contact"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></a></span>
+        <span class="ev-built">Built with <a href="https://www.theskylite.com" target="_blank" rel="noopener">SkyNet</a></span>
+    </div>
+</footer>
+<div class="ev-modal" id="ev-modal" onclick="EventsJs.closeModal(event)"><div class="ev-modal-box" id="ev-modal-box"></div></div>
+<div class="ev-toast" id="ev-toast" role="status"></div>
+</div>
