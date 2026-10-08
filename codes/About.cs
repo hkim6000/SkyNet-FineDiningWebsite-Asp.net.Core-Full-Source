@@ -19,7 +19,7 @@ namespace FineDining.codes
             int years = Math.Max(1, today.Year - 2016);
             string[] words = { "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen" };
             HtmlDoc.HtmlBodyText = HtmlDoc.HtmlBodyText.Replace("{plhd_years}", years <= words.Length ? words[years - 1] : years.ToString(Inv));
-            await Task.CompletedTask;
+            
         }
 
         private static readonly CultureInfo Inv = CultureInfo.InvariantCulture;
@@ -76,7 +76,7 @@ namespace FineDining.codes
         public async Task<ApiResponse> Subscribe()
         {
             ApiResponse response = new ApiResponse();
-            await Task.CompletedTask;
+            
             string email = (GetDataValue("email") ?? string.Empty).Trim();
             if (!IsEmail(email))
             {
